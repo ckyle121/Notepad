@@ -10,10 +10,10 @@ router.get('/notes', (req, res) => {
 // POST request for notes stored in json db 
 router.post('/notes', (req, res) => {
     req.body.id = notes.length.toStirng();
+    notes.push(req.body)
     res.sendFile(__dirname, + '/notes.html'); 
-    
 
-    res.json(results);
+    res.json(notes);
 });
 
 module.exports = router; 
