@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const { getAndRenderNotes } = require('../../public/assets/js/index');
 const { notes } = require('../../db/db.json');
 
 // GET request for notes stored in json db
@@ -11,9 +10,7 @@ router.get('/notes', (req, res) => {
 router.post('/notes', (req, res) => {
     req.body.id = notes.length.toStirng();
     notes.push(req.body)
-    res.sendFile(__dirname, + '/notes.html'); 
-
-    res.json(notes);
+    res.sendFile(__dirname, + '../../db/db.json'); 
 });
 
 module.exports = router; 
