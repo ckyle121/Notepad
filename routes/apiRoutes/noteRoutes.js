@@ -14,3 +14,5 @@ router.post('/notes', (req, res) => {
     const results = getAndRenderNotes(req.body, notes);
     res.json(results);
 });
+
+module.exports = router; 
