@@ -10,8 +10,9 @@ router.get('/notes', (req, res) => {
 // POST request for notes stored in json db 
 router.post('/notes', (req, res) => {
     req.body.id = notes.length.toStirng();
+    res.sendFile(__dirname, + '/notes.html'); 
+    
 
-    const results = getAndRenderNotes(req.body, notes);
     res.json(results);
 });
 
