@@ -1,5 +1,6 @@
 # Notepad
 
+## Purpose: 
 An application to write and save note with Express.js back end and will save and retrieve note data from JSON file. The application will allow user to be able to save the notes and won't lose them even they refresh the page. The user will also be able to delete notes.
 
 ## Deployed Application: 
@@ -23,3 +24,6 @@ https://obscure-citadel-91849.herokuapp.com/
 #### Image of enter new note:
 
 ![image](https://user-images.githubusercontent.com/75647359/155443677-4d654c08-bae6-4b4d-baae-2fd78ff8d3e1.png)
+
+## Contributors: 
+Caroline Kyle © 2022
