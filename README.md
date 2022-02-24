@@ -3,7 +3,7 @@
 An application to write and save note with Express.js back end and will save and retrieve note data from JSON file. The application will allow user to be able to save the notes and won't lose them even they refresh the page. The user will also be able to delete notes.
 
 ## Deployed Application: 
-
+https://obscure-citadel-91849.herokuapp.com/
 
 ## Technologies Used: 
 * Node.js
