@@ -1,7 +1,7 @@
 const router = require('express').Router();
-const { route } = require('express/lib/application');
 const notes = require('../../db/db.json');
 const { v4: uuidv4 } = require('uuid');
+
 
 // GET request for notes stored in json db
 router.get('/notes', (req, res) => {
@@ -13,7 +13,7 @@ router.post('/notes', (req, res) => {
     req.body.id = uuidv4();
     
     notes.push(req.body)
-    res.sendFile(__dirname, + '../../db/db.json'); 
+    res.sendFile(__dirname + notes); 
     res.json(req.body);
 });
 
@@ -21,7 +21,7 @@ router.post('/notes', (req, res) => {
 router.delete('/notes/:id', (req, res) => {
     notes.splice(req.params.id, 1);
 
-    res.sendFile(__dirname, + '../../db/db.json');
+    res.sendFile(__dirname + notes);
     res.json(req.body);
 });
 
