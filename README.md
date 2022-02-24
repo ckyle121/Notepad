@@ -20,6 +20,6 @@ An application to write and save note with Express.js back end and will save and
 
 ![image](https://user-images.githubusercontent.com/75647359/155443616-ed950f35-52ac-42a3-a261-8c0094371507.png)
 
-#### Image to enter new note:
+#### Image of enter new note:
 
 ![image](https://user-images.githubusercontent.com/75647359/155443677-4d654c08-bae6-4b4d-baae-2fd78ff8d3e1.png)
