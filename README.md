@@ -13,6 +13,8 @@ https://obscure-citadel-91849.herokuapp.com/
 * Bootstrap
 * Google Fonts 
 
+## Screenshots of Website: 
+
 #### Homepage: 
 
 ![image](https://user-images.githubusercontent.com/75647359/155443739-cf3f95eb-3775-4897-93f5-41d84feb6eb5.png)
